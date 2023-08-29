@@ -1,0 +1,27 @@
+
+
+header li{
+    text-align: center;
+    display: inline;
+    margin-right: 50px;
+}
+
+header{
+    text-align: center;
+}
+
+p{
+    font-family: sans-serif;
+    color: darkmagenta;
+    text-align: justify;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img{
+    border-radius: 500px;
+}
+
+body{
+    background-color: lightgray;
+}
