@@ -1,21 +1,27 @@
-
-
 header li{
     text-align: center;
     display: inline;
     margin-right: 50px;
+    
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
 }
 
 header{
-    text-align: center;
+    text-align: right;
+    background-color: darkgrey;
+    margin: 0 auto;
 }
 
 p{
     font-family: sans-serif;
     color: darkmagenta;
     text-align: justify;
-    max-width: 1200px;
-    margin: 0 auto;
+    
+    
 }
 
 img{
@@ -23,5 +29,43 @@ img{
 }
 
 body{
-    background-color: lightgray;
+    background-color: lightgrey;
+
+
+}
+
+
+
+nav {
+    color: white;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background-color: darkmagenta;
+    height: 30px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 0;
+}
+
+
+
+.contato {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+
+}
+
+.below-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    bottom: 0;
 }

@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bruno Marques de Souza - Contato</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-<header>
-    <h1>Contato</h1>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno Marques de Souza - Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>  
     <nav>
         <ul>
             <li><a href="inicio.html">Início</a></li>
-            <li><a href="sobre.html">Meus Hobbies</a></li>
+            <li><a href="sobre.html">Sobre Mim</a></li>
             <li><a href="contato.html">Contato</a></li>
         </ul>
     </nav>
 </header>
 <body>
-    <section>
-        <a href="https://www.instagram.com/bruno.marqs/" target="_blank">Instagram</a>
-    </section>
+    <h1>Contato</h1>
+    <div class="contato">
+        <p>
+            Abaixo seguem as minhas opções de contato:<br>
+            <a href="https://www.instagram.com/bruno.marqs/" target="_blank">Instagram</a>
+        </p>
+        
+    </div>
 
-    <section>
-        <form action="cadastro.php" method="post">
-            <label for="nome">Login:</label><br>
-            <input type="text" name="login"><br>
-            <label for="senha">Senha:</label><br>
+    <div class="below-content">
+        <form action="confirmation.html" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome"><br>
+
+            <label for="email">Email:</label><br>
             <input type="password" name="Senha"><br>
+
+            <label for="sugestão">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="10" cols="50"></textarea><br>
+
             <input type="submit" name="btn-enviar" value="enviar">
-            </legend>
         </form>
-    </section>
+    </div>
 </body>
